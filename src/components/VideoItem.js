@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Grid, Paper, Typograph, Typography} from '@material-ui/core';
+import { Grid, Paper, Typography} from '@material-ui/core';
 
 const VideoItem = ({videos, onVideoSelect}) => {
     console.log(videos.snippet);
